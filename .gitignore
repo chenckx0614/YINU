@@ -1,0 +1,23 @@
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+*.iml
+
+# Keep generated packages and the separate web project out of the Android repository.
+*.apk
+*.aab
+*.apks
+/web/
+
+# Machine-specific credentials and Android signing material.
+.env
+.env.*
+!.env.example
+keystore.properties
+key.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
